@@ -1,7 +1,7 @@
 ## ZSH Config
 ### Justin Horner
 
-PROMPT='%B%F{red}%n%{%F{white}@%F{green}%m%{%F{white}:%F{blue}%d%  %F{red}>%F{yellow}>%F{green}> %F{white}'
+PROMPT='%B%{%F{red}%}%n%{%F{white}%}@%{%F{green}%}%m%{%F{white}%}:%{%F{blue}%}%d %{%F{red}%}>%{%F{yellow}%}>%{%F{green}%}> %{%F{white}%}'
 
 #eval $(dircolors -p | sed -e 's/DIR 01;34/DIR 01;36/' | dircolors /dev/stdin)
 
